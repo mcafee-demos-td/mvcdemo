@@ -6,7 +6,7 @@
       "Type": "AWS::S3::Bucket",
       "Properties": {
         "BucketName": "mydesignbucket",
-        "AccessControl": "PublicReadWrite",
+        "AccessControl": "Private",
         "BucketEncryption": {
           "ServerSideEncryptionConfiguration": [
             {
