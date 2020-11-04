@@ -20,7 +20,7 @@
             "Type": "AWS::ElasticLoadBalancing::LoadBalancer",
             "Properties": {
                 "AccessLoggingPolicy":{
-                    "Enabled" : true,
+                    "Enabled" : false,
                     "S3BucketName" : "String"
                 },
                 "Listeners":{
